@@ -1,23 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
-
 body{
 	margin: 0;
-	padding: 0;
+	padding: 1px;
+	overflow-x: hidden;
 }
+/*--------------------------end landing-page---*/
 #landing-page{
 	background-image:url(images/nihal-demirci-0ME-BIUBmUs-unsplash.jpg); 
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
-	min-height:1000px;
-  min-width: 1024px;
+	min-height:750px;
+  min-width: 924px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
 }
 .item-links{
 	font-family: "Roboto" sans-serif;
-	background-attachment: fixed;
+	position: fixed;
 }
 .item-name{
 	display: inline-block;
@@ -41,7 +42,7 @@ body{
 	text-transform: uppercase;
 }
 
-/*--------------------------end landing-page---*/
+/*--------------------------footer---*/
 
 #footer{
 	padding-top: 10px;

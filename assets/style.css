@@ -159,11 +159,12 @@ span {
 }
 
 .work-exp {
-	position: absolute;
-	left: 25px;
 	margin: 0;
-	padding: 30px;
+	padding: 0;
+}
 
+.work-title {
+	padding-top: 1em
 }
 
 .timeline-item {
@@ -208,7 +209,13 @@ span {
 	margin: 0;
 	padding: 0;
 	text-align: center;
-	padding-top: 40px;
+	padding-top: 30px;
+}
+
+.item {
+	font-family: serif;
+	font-weight: 800;
+	padding-top: 3px;
 }
 
 .progress {
@@ -262,14 +269,14 @@ span {
 /*--------------------------contact-page---*/
 
 .contact-page {
-	height: 550px;
+	height: 629px;
 	background-color: darkgray;
 	position: relative;
 }
 
 .contact-heading {
-	margin-top: 25px;
-	margin-bottom: 20px;
+	margin-top: 3em;
+	margin-bottom: 1em;
 }
 
 .center-form {
@@ -279,7 +286,7 @@ span {
 }
 
 button[type="submit"] {
-	margin-top: 15px;
+	margin-top: 25px;
 	margin-bottom: 20px;
 	color: antiquewhite;
 	background-color: dimgray;

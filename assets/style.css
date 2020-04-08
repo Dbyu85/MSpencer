@@ -143,7 +143,7 @@ span {
 
 /*--------------------------resume---*/
 #resume-page {
-	height: 650px;
+	height: 750px;
 	background-color: darkgray;
 	position: relative;
 }
@@ -190,6 +190,31 @@ span {
 	border-radius: 12px;
 	content: '';
 	background: black;
+}
+
+/*--------------------------skills-item-page---*/
+
+.skills-item {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	padding-top: 40px;
+}
+
+.progress {
+	position: relative;
+	height: 25px;
+	margin-top: 4px;
+}
+
+.progress-type {
+	position: absolute;
+	left: 0px;
+	font-weight: 400;
+	padding: 3px 30px 2px 10px;
+	color: antiquewhite;
+	background-color: rgba(25, 25, 25, 0.2);
+
 }
 
 /*--------------------------contact-page---*/

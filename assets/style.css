@@ -146,6 +146,16 @@ span {
 	height: 750px;
 	background-color: darkgray;
 	position: relative;
+	background-image: url(images/timj-ots0EOYuGtU-unsplash.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	min-height: 750px;
+	min-width: 924px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
 }
 
 .work-exp {

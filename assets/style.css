@@ -144,7 +144,16 @@ span {
 /*--------------------------resume---*/
 #resume-page {
 	height: 650px;
-	background-color: darkgray
+	background-color: darkgray;
+	position: relative;
+}
+
+.work-exp {
+	position: absolute;
+	left: 25px;
+	margin: 0;
+	padding: 30px;
+
 }
 
 .timeline-item {
@@ -182,6 +191,43 @@ span {
 	content: '';
 	background: black;
 }
+
+/*--------------------------contact-page---*/
+
+.contact-page {
+	height: 550px;
+	background-color: darkgray;
+	position: relative;
+}
+
+.contact-heading {
+	margin-top: 25px;
+	margin-bottom: 20px;
+}
+
+.center-form {
+	padding-top: 10px;
+	margin: 0 auto;
+	max-width: 70%;
+}
+
+button[type="submit"] {
+	margin-top: 15px;
+	margin-bottom: 20px;
+	color: antiquewhite;
+	background-color: dimgray;
+}
+
+/*--------------------------media---*/
+@media(min-width: 992px) {
+	.center-form {
+		padding-top: 30px;
+		min-height: 240px;
+		margin: 0 auto;
+		max-width: 50%;
+	}
+}
+
 
 /*--------------------------footer---*/
 

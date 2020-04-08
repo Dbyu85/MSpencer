@@ -227,6 +227,38 @@ span {
 
 }
 
+/*--------------------------education---*/
+.education {
+	background-color: darkgray;
+	height: 950px;
+}
+
+.education-title {
+	padding-top: 20px;
+	font-size: 2em;
+	font-family: serif;
+	font-weight: 900;
+}
+
+.education-container {
+	text-align: center;
+}
+
+.education img {
+	height: 380px;
+	width: 100%;
+}
+
+.education span {
+	font-family: Exo, sans-serif;
+	font-weight: 600;
+	padding-top: ;
+}
+
+.education p {
+	padding: 2px
+}
+
 /*--------------------------contact-page---*/
 
 .contact-page {

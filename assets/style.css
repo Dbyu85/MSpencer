@@ -6,24 +6,16 @@
 	border: 0;
 }
 
-	{
-	background: url(images/nihal-demirci-0ME-BIUBmUs-unsplash.jpg)center center;
-	background-repeat: no-repeat;
+body {
 	background-size: cover;
-	background-attachment: fixed;
-	height: 100%;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-}
-
-body {
-	background-color: aqua
+	background: url(images/nihal-demirci-0ME-BIUBmUs-unsplash.jpg) no-repeat fixed center;
 }
 
 /*--------------------------cv-page nav---*/
 #home-page {
-	height: 105px;
 	width: 100%;
 	background-color: rgba(25, 25, 25, 0.05);
 }
@@ -267,10 +259,8 @@ button[type="submit"] {
 
 /*--------------------------cv-page footer---*/
 footer {
-	height: 130px;
-	width: 100%;
+	padding: 0 32px 0 32px;
 	background-color: rgba(25, 25, 25, 0.05);
-	text-align: center;
 }
 
 .footer-page {
@@ -299,19 +289,4 @@ footer {
 	margin: 1%;
 	padding: 5%;
 	color: antiquewhite
-}
-
-media screen and(max-width: 1393px) {
-		{
-		margin: 0;
-		height: 1200px;
-		width: 100%;
-	}
-
-	.cv-item {
-		margin: 0 auto;
-
-
-	}
-
 }

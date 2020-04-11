@@ -21,6 +21,8 @@ body {
 }
 
 .cv-item {
+	padding-left: 7em;
+	text-align: center;
 	font-family: gotu, sans-serif;
 	font-size: 1.5em;
 }
@@ -159,32 +161,6 @@ body {
 	background-color: rgba(25, 25, 25, 0.1);
 }
 
-
-
-
-
-
-/*--------------------------responsive div---*/
-.key1,
-.value1 {
-	text-align: center;
-	font-family: roboto, sans-serif;
-}
-
-.key1 {
-	font-weight: 700;
-	background-color: rgba(25, 25, 25, 0.2);
-}
-
-.dropdown {
-	text-align: center;
-	font-family: gotu, sans-serif;
-	padding-top: 2em;
-}
-
-
-
-
 /*--------------------------cv-page content---*/
 
 .presentation-page {
@@ -264,7 +240,7 @@ footer {
 }
 
 .footer-page {
-	font-size: 2em;
+	font-size: 1em;
 }
 
 
@@ -284,4 +260,23 @@ footer {
 	margin: 1%;
 	padding: 5%;
 	color: antiquewhite
+}
+
+/*--------------------------responsive div---*/
+.key1,
+.value1 {
+	text-align: center;
+	font-family: roboto, sans-serif;
+}
+
+.key1 {
+	font-weight: 700;
+	background-color: rgba(25, 25, 25, 0.2);
+}
+
+.dropdown {
+	text-transform: uppercase;
+	font-family: gotu, sans-serif;
+	padding-top: 2em;
+	text-align: center;
 }

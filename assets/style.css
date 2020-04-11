@@ -1,30 +1,36 @@
 @import url('https://fonts.googleapis.com/css?family=Gotu:100,200,300,400,500,600,700|Roboto&display=swap:100,200,300,400,500,600,700');
 
-body {
-	background-image: url(images/nihal-demirci-0ME-BIUBmUs-unsplash.jpg);
-	height: 100%;
-	width: 100%;
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+	{
+	background: url(images/nihal-demirci-0ME-BIUBmUs-unsplash.jpg)center center;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
 	background-size: cover;
+	background-attachment: fixed;
+	height: 100%;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 }
 
-/*--------------------------cv-page nav---*/
-.cv-item {
-	margin: 0;
-	height: 110px;
-	padding: 35px 25px 35px 25px;
-	font-family: gotu, sans-serif;
-	font-size: 1.5em;
-	background-color: rgba(25, 25, 25, 0.2);
-
+body {
+	background-color: aqua
 }
 
-.cv-item li {
-	padding-left: 1em;
+/*--------------------------cv-page nav---*/
+#home-page {
+	height: 105px;
+	width: 100%;
+	background-color: rgba(25, 25, 25, 0.05);
+}
+
+.cv-item {
+	font-family: gotu, sans-serif;
+	font-size: 1.5em;
 }
 
 .c {
@@ -38,8 +44,6 @@ body {
 /*--------------------------about-page content---*/
 .about-content-page {
 	background-color: darkgray;
-	height:
-
 }
 
 .about-content-page img {
@@ -51,14 +55,11 @@ body {
 	text-align: center;
 }
 
-.about-personal-info {}
-
 .key,
 .value {
 	display: inline-block;
 	font-family: gotu, sans-serif;
 	font-weight: 700;
-	margin: 0;
 	padding: 1em;
 
 }
@@ -87,11 +88,10 @@ body {
 /*--------------------------resume content---*/
 
 #section-resume {
-	margin: 0;
-	padding: 0;
-	background-image: url(images/timj-ots0EOYuGtU-unsplash.jpg);
+	background: url(images/timj-ots0EOYuGtU-unsplash.jpg);
 	height: 100%;
-	width: 100% background-repeat: no-repeat;
+	width: 100%;
+	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
 	-webkit-background-size: cover;
@@ -100,8 +100,6 @@ body {
 }
 
 .resume-page {
-	margin: 0;
-	padding: 0;
 	height: 750px;
 
 }
@@ -121,11 +119,6 @@ body {
 	border-left: 1px solid;
 }
 
-.timeline-item p {
-	padding: 0;
-	margin: 0;
-}
-
 .timeline-item:before {
 	content: attr(data-dates);
 	position: absolute;
@@ -134,8 +127,6 @@ body {
 	display: block;
 	font-weight: 500;
 	font-size: 0.8em;
-	padding: 0;
-	margin: 0;
 }
 
 .timeline-item:after {
@@ -151,7 +142,6 @@ body {
 }
 
 .skills-item {
-	margin: 0;
 	padding-top: 2em;
 }
 
@@ -183,21 +173,21 @@ body {
 
 
 /*--------------------------responsive div---*/
-.personal-info-small-device {
-	margin: 0;
-	padding: 0;
-}
-
 .key1,
 .value1 {
 	text-align: center;
 	font-family: roboto, sans-serif;
-
 }
 
 .key1 {
 	font-weight: 700;
 	background-color: rgba(25, 25, 25, 0.2);
+}
+
+.dropdown {
+	text-align: center;
+	font-family: gotu, sans-serif;
+	padding-top: 2em;
 }
 
 
@@ -206,7 +196,6 @@ body {
 /*--------------------------cv-page content---*/
 
 .presentation-page {
-	margin: 0;
 	padding: 19em 9em 11em 5em;
 }
 
@@ -221,10 +210,6 @@ h1 {
 }
 
 /*--------------------------education content---*/
-.education-page {
-	margin: 0;
-	padding: 0;
-}
 
 .education-image img {
 	height: 350px;
@@ -281,11 +266,52 @@ button[type="submit"] {
 }
 
 /*--------------------------cv-page footer---*/
+footer {
+	height: 130px;
+	width: 100%;
+	background-color: rgba(25, 25, 25, 0.05);
+	text-align: center;
+}
 
 .footer-page {
+	font-size: 2em;
+}
 
-	margin: 0;
-	padding-left: 4em;
-	padding-top: 1em;
-	background-color: rgba(25, 25, 25, 0.2);
+.download-cv,
+.social-media {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.download-quote {
+	font-family: gotu, sans-serif;
+	font-weight: 600;
+}
+
+.download-cv i {
+	font-size: 160%;
+	margin: 1%;
+	color: black;
+}
+
+.social-links i {
+	font-size: 160%;
+	margin: 1%;
+	padding: 5%;
+	color: antiquewhite
+}
+
+media screen and(max-width: 1393px) {
+		{
+		margin: 0;
+		height: 1200px;
+		width: 100%;
+	}
+
+	.cv-item {
+		margin: 0 auto;
+
+
+	}
+
 }

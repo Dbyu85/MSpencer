@@ -15,8 +15,8 @@
 <body>
 	<header class="container-fluid" id="home-page">
 		<div class="col-sm cv-item">
-			<nav class="navbar-expand-sm d-none d-md-block">
-				<ul class="nav ">
+			<nav class="nav-cv-item d-none d-md-block">
+				<ul class="nav test">
 					<li class="nav-item uppercase">
 						<a class="nav-link b" href="index.html">home</a>
 					</li>
@@ -34,50 +34,51 @@
 					</li>
 				</ul>
 			</nav>
-			<div class="mr-2 d-block d-sm-none">
-				<div class="dropdown">
-					<a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						Home
-					</a>
+		</div>
+		<div class="mr-2 d-block d-sm-none">
+			<div class="dropdown">
+				<a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Home
+				</a>
 
-					<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-						<a class="dropdown-item" href="about.html">about</a>
-						<a class="dropdown-item" href="resume.html">resume</a>
-						<a class="dropdown-item" href="education.html">education</a>
-						<a class="dropdown-item" href="contact.html">contact</a>
-					</div>
+				<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+					<a class="dropdown-item" href="about.html">about</a>
+					<a class="dropdown-item" href="resume.html">resume</a>
+					<a class="dropdown-item" href="education.html">education</a>
+					<a class="dropdown-item" href="contact.html">contact</a>
 				</div>
 			</div>
 		</div>
 	</header>
+
 	<section>
-		<div id="section-resume">
-			<div class="row resume-page">
-				<div class="col-12 col-md-4 work-history d-none d-md-block">
+		<div id="section-resume" class="container-fluid">
+			<div class="row resume-page ">
+				<div class="col-sm col-md-4 work-history d-none d-md-block">
 					<div class="col-12">
-						<h3 class="work-title">Work Experience</h3>
+						<h3 class="work-title uppercase">Work Experience</h3>
 					</div>
 					<div class="timeline-item" data-dates="08/2017 - 07/2018">
-						<h4>Crane currency C.O</h4>
-						<p>Machine Operator</p>
+						<h4 class="work-name uppercase">Crane currency C.O</h4>
+						<p class="work-position">Machine Operator</p>
 					</div>
 					<div class="timeline-item" data-dates="12/2012 - 12/2016">
-						<h4>Karbin AB</h4>
-						<p>Climbing Instructore and Route Setter</p>
+						<h4 class="work-name uppercase">Karbin AB</h4>
+						<p class="work-position">Climbing Instructore and Route Setter</p>
 					</div>
 					<div class="timeline-item" data-dates="07/2007 - 11/2011">
-						<h4>Health Care</h4>
-						<p>Nurse Assistent</p>
+						<h4 class="work-name uppercase">Health Care</h4>
+						<p class="work-position">Nurse Assistent</p>
 					</div>
 					<div class="timeline-item" data-dates="01/2005 - 10/2006">
-						<h4>Gastronomy</h4>
-						<p>Service</p>
+						<h4 class="work-name uppercase">Gastronomy</h4>
+						<p class="work-position">Service</p>
 					</div>
 				</div>
-				<div class="col-12 col-md-8 skills-item">
 
+				<div class="col-sm col-md-8 skills-item">
 					<div class="language-skills">
-						<div class="col-12 col-md-6">
+						<div class="col-md-6">
 							<p class="uppercase item">language</p>
 						</div>
 						<div class="language-skills progress">
@@ -131,7 +132,7 @@
 					</div>
 
 					<div class="pc-skills">
-						<div class="col-12 col-md-6">
+						<div class="col-md-6">
 							<p class="uppercase item">pc</p>
 						</div>
 						<div class="pc-skills progress">
@@ -185,10 +186,10 @@
 					</div>
 
 					<div class="social-skills">
-						<div class="col-12 col-md-6">
-							<p class="uppercase item">social</p>
+						<div class="col-md-6">
+							<p class="uppercase item">social skills</p>
 						</div>
-						<div class="progress social-item">
+						<div class="progress social-item uppercase">
 							<div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="20">flexibility</div>
 							<div class="progress-bar bg-success" role="progressbar" style="width: 35%" aria-valuenow="35" aria-valuemin="0" aria-valuemax="35">problem solving</div>
 							<div class="progress-bar bg-info" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="40">comunication</div>

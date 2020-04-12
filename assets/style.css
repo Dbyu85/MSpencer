@@ -12,20 +12,21 @@ body {
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
+	box-sizing: border-box;
 }
 
 /*--------------------------cv-page nav---*/
 #home-page {
-	width: 100%;
+	padding: 2em 1.5em;
 	background-color: rgba(25, 25, 25, 0.05);
 }
 
 .cv-item {
-	padding-left: 7em;
-	text-align: center;
 	font-family: gotu, sans-serif;
 	font-size: 1.5em;
+	padding-left: 6em;
 }
+
 
 .c {
 	color: antiquewhite;
@@ -35,82 +36,122 @@ body {
 	color: black;
 }
 
+/*--------------------------cv-page content---*/
+
+.presentation-page {
+	padding: 19em 9em 11em 5em;
+}
+
+h1,
+h2,
+h3 {
+	font-family: gotu, sans-serif;
+}
+
+h1 {
+	font-weight: 600;
+}
+
 /*--------------------------about-page content---*/
 .about-content-page {
-	background-color: darkgray;
+	background-color: dimgrey;
 }
 
 .about-content-page img {
-	height: 100%;
-	width: 100%
-}
-
-.info-item-title {
-	text-align: center;
-}
-
-.key,
-.value {
-	display: inline-block;
-	font-family: gotu, sans-serif;
-	font-weight: 700;
-	padding: 1em;
-
-}
-
-.value {
-	font-weight: 500;
-}
-
-.who-i-am {
-	text-align: center;
-	margin: 10px;
-}
-
-.p-info {
-	padding: 10px;
-	text-align: center;
-}
-
-.about-picture img {
+	height: flex;
+	width: 100%;
+	padding: 0.5em 0.5em;
 	border-bottom-left-radius: 25px;
 	border-top-left-radius: 25px;
 	border-top-right-radius: 25px;
 	border-bottom-right-radius: 25px;
 }
 
+.info-item-title {
+	text-align: center;
+	padding: 0.5em 0.5em;
+}
+
+.key,
+.value {
+	display: inline-block;
+	font-family: gotu, sans-serif;
+	padding: 1em;
+
+}
+
+.key,
+.key1 {
+	font-weight: 600;
+}
+
+.value,
+.value1 {
+	font-weight: 100;
+	font-size: 1em;
+	color: antiquewhite
+}
+
+.who-i-am {
+	text-align: center;
+	margin: 0;
+	padding: 0.5em 1em;
+}
+
+.p-info {
+	padding: 1em 0.5em;
+	text-align: center;
+	color: antiquewhite;
+	font-weight: 100;
+	font-size: 1em;
+}
+
+
+
 /*--------------------------resume content---*/
 
 #section-resume {
 	background: url(images/timj-ots0EOYuGtU-unsplash.jpg);
-	height: 100%;
-	width: 100%;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
 	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
+	box-sizing: border-box;
 }
 
 .resume-page {
 	height: 750px;
-
+	width: 100%;
 }
 
 .work-history {
-	padding-left: 2em;
+	padding: 2em 2em;
 }
 
 .work-title {
-	padding-top: 1em
+	padding-top: 0.5em;
+	font-weight: 600;
+}
+
+.work-name {
+	font-family: gotu, sans-serif;
+	font-weight: 600;
+	font-size: 1em;
+	padding-top: 0.7em;
+}
+
+.work-position {
+	padding: 0;
+	font-family: gotu, sans-serif;
 }
 
 .timeline-item {
-	padding: 4em 2em 0em 2em;
+	padding: 1em 1em;
 	position: relative;
 	color: black;
 	border-left: 1px solid;
+	box-sizing: border-box;
 }
 
 .timeline-item:before {
@@ -136,13 +177,25 @@ body {
 }
 
 .skills-item {
-	padding-top: 2em;
+	margin: 0;
+	padding: 0;
+
 }
 
 .language-skills,
 .pc-skills,
-.social-skills {
+	{
+	font-family: roboto, sans-serif;
+}
+
+.item {
 	text-align: center;
+	font-family: gotu, sans-serif;
+	font-weight: 600;
+	padding-top: 1em
+}
+
+.social-item {
 	font-family: roboto, sans-serif;
 }
 
@@ -161,31 +214,21 @@ body {
 	background-color: rgba(25, 25, 25, 0.1);
 }
 
-/*--------------------------cv-page content---*/
 
-.presentation-page {
-	padding: 19em 9em 11em 5em;
-}
-
-h1,
-h2,
-h3 {
-	font-family: gotu, sans-serif;
-}
-
-h1 {
-	font-weight: 600;
-}
 
 /*--------------------------education content---*/
-
-.education-image img {
-	height: 350px;
-	width: 100%;
+.education-section {
+	background-color: antiquewhite;
 }
 
-.education-section {
-	background-color: black;
+.education-image img {
+	height: flex;
+	width: 100%;
+	padding: 0.5em 0.5em;
+	border-bottom-left-radius: 25px;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
 }
 
 .education-title {
@@ -194,8 +237,12 @@ h1 {
 	padding-top: 1em;
 	font-weight: 700;
 	font-size: 2em;
-	color: antiquewhite;
+	color: black;
 	background-color: rgba(25, 25, 25, 0.2);
+	border-bottom-left-radius: 25px;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
 }
 
 .uppercase {
@@ -204,20 +251,34 @@ h1 {
 
 .education-item {
 	text-align: center;
-	color: antiquewhite;
+	color: black;
+	font-family: gotu, sans-serif;
+	font-size: 1.5em;
+	font-weight: 600;
 }
 
 /*--------------------------contact content---*/
 
 .contact-page {
-	height: 629px;
+	box-sizing: border-box;
+	height: 750px;
 	background-color: darkgray;
 	position: relative;
 }
 
 .contact-heading {
-	margin-top: 3em;
-	margin-bottom: 1em;
+	padding-top: 6em;
+	font-weight: 600;
+	font-size: 2em;
+}
+
+.contact-form-text {
+	padding-top: 0.5;
+	text-transform: capitalize;
+	font-weight: 300;
+	font-size: 2em;
+	color: antiquewhite;
+	padding-bottom: 1em;
 }
 
 .center-form {
@@ -231,22 +292,28 @@ button[type="submit"] {
 	margin-bottom: 20px;
 	color: antiquewhite;
 	background-color: dimgray;
+	font-size: 1.5em;
+	font-family: roboto, sans-serif;
 }
 
 /*--------------------------cv-page footer---*/
 footer {
-	padding: 0 32px 0 32px;
+	padding: 2em 1.5em;
 	background-color: rgba(25, 25, 25, 0.05);
 }
 
-.footer-page {
+.footer-page,
+.social-links {
 	font-size: 1em;
+	font-weight: 700;
+	text-align: center
 }
 
-
-.download-quote {
+.download-text {
+	text-align: center;
 	font-family: gotu, sans-serif;
-	font-weight: 600;
+	font-weight: 500;
+	font-size: 1em;
 }
 
 .download-cv i {
@@ -259,7 +326,7 @@ footer {
 	font-size: 160%;
 	margin: 1%;
 	padding: 5%;
-	color: antiquewhite
+	color: antiquewhite;
 }
 
 /*--------------------------responsive div---*/

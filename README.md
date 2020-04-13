@@ -45,19 +45,59 @@ Is a very simple but expressful webpage with easy access to all the important co
 
 # ***Testing***
 
+* Tested on testproject 
+
+  - [TestProject page](https://app.testproject.io/#/projects/69765/tests?testFolderId=84480).
+
+* file on Github 
+
+  - [GitHub Pages](https://github.com/Dbyu85/MSpencer/tree/master/assets/mockup)
+
+
 # ***Deployment***
+
+The first step for my project deployment:
+
+- build the repository in GitHub.
+
+- Clone repository on sourcetree to my local machine.
+
+- Open repository using Brackets.
+
+  - commits through sourcetree.
+ 
+- work the mockup on TestProject agent.
+
 
 # ***Credits***
 
  ## Content
  
- -
+ - The content was a cobination of diffent unit from Code Institute.
  
  ## Media
  
- -
+ - Images used obtained from unsplash and privat.
  
  ## Acknowledgements
+ 
+ - thank you to  lindroth for clarifications and example to understand my mistake and issues.
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  -
  

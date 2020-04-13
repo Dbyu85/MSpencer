@@ -7,12 +7,13 @@
 }
 
 body {
-	background: url(images/nihal-demirci-0ME-BIUBmUs-unsplash.jpg) no-repeat fixed center;
+	background: url(images/nihal-demirci-0ME-BIUBmUs-unsplash.jpg) no-repeat center;
 	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	box-sizing: border-box;
+	height: flex;
 }
 
 /*--------------------------cv-page nav---*/
@@ -39,6 +40,10 @@ body {
 /*--------------------------cv-page content---*/
 
 .presentation-page {
+	height: 1080px;
+}
+
+.presentation-title {
 	padding: 19em 9em 11em 5em;
 }
 
@@ -55,6 +60,8 @@ h1 {
 /*--------------------------about-page content---*/
 .about-content-page {
 	background-color: dimgrey;
+	height: 1080px;
+
 }
 
 .about-content-page img {
@@ -89,7 +96,7 @@ h1 {
 .value1 {
 	font-weight: 100;
 	font-size: 1em;
-	color: antiquewhite
+	color: antiquewhite;
 }
 
 .who-i-am {
@@ -108,7 +115,7 @@ h1 {
 
 
 
-/*--------------------------resume content---*/
+/*--------------------------resume/skills content---*/
 
 #section-resume {
 	background: url(images/timj-ots0EOYuGtU-unsplash.jpg);
@@ -121,16 +128,17 @@ h1 {
 }
 
 .resume-page {
-	height: 750px;
+	height: 1080px;
 	width: 100%;
 }
 
 .work-history {
-	padding: 2em 2em;
+	padding: 6em 3em;
 }
 
 .work-title {
 	padding-top: 0.5em;
+	padding-bottom: 1em;
 	font-weight: 600;
 }
 
@@ -139,6 +147,7 @@ h1 {
 	font-weight: 600;
 	font-size: 1em;
 	padding-top: 0.7em;
+	padding-bottom: 1em;
 }
 
 .work-position {
@@ -147,7 +156,7 @@ h1 {
 }
 
 .timeline-item {
-	padding: 1em 1em;
+	padding: 1em 1.5em;
 	position: relative;
 	color: black;
 	border-left: 1px solid;
@@ -157,7 +166,7 @@ h1 {
 .timeline-item:before {
 	content: attr(data-dates);
 	position: absolute;
-	left: 2.5em;
+	left: 2em;
 	top: 3em;
 	display: block;
 	font-weight: 500;
@@ -178,21 +187,21 @@ h1 {
 
 .skills-item {
 	margin: 0;
-	padding: 0;
+	padding-top: 5em;
 
 }
 
 .language-skills,
-.pc-skills,
-	{
+.pc-skills {
 	font-family: roboto, sans-serif;
+
 }
 
 .item {
 	text-align: center;
 	font-family: gotu, sans-serif;
 	font-weight: 600;
-	padding-top: 1em
+	padding-top: 3em;
 }
 
 .social-item {
@@ -261,7 +270,7 @@ h1 {
 
 .contact-page {
 	box-sizing: border-box;
-	height: 750px;
+	height: 1080px;
 	background-color: darkgray;
 	position: relative;
 }
@@ -329,7 +338,7 @@ footer {
 	color: antiquewhite;
 }
 
-/*--------------------------responsive div---*/
+/*--------------------------other style---*/
 .key1,
 .value1 {
 	text-align: center;
@@ -347,3 +356,5 @@ footer {
 	padding-top: 2em;
 	text-align: center;
 }
+
+/*--------------------------responsive div---*/
